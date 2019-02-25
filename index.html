@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<title>Jennathul Firthous Saamsudeen</title>
+	<title>Jennathul Firthous Samsudeen</title>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -241,9 +241,9 @@ border-radius: 50%;
 								var colors = [
 										['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0']
 									];
-								for (var i = 1; i <= 1; i++) {
+							 for (var i = 1; i <= 1; i++){
 									var child = document.getElementById('circles-' + i),
-										percentage = 65;
+										percentage = 60;
 										
 									Circles.create({
 										id:         child.id,
@@ -255,9 +255,9 @@ border-radius: 50%;
 										colors:     colors[i - 1]
 									});
 								}
-								for (var i = 2; i <= 2; i++){
+								for (var i = 2; i <= 2; i++) {
 									var child = document.getElementById('circles-' + i),
-										percentage = 60;
+										percentage = 65;
 										
 									Circles.create({
 										id:         child.id,
@@ -283,7 +283,34 @@ border-radius: 50%;
 										colors:     colors[i - 1]
 									});
 								}
-								
+								for (var i = 4; i <= 4; i++){
+									var child = document.getElementById('circles-' + i),
+										percentage = 60;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+								for (var i = 5; i <= 5; i++){
+									var child = document.getElementById('circles-' + i),
+										percentage = 60;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
 						
 				</script>
 		</div>
